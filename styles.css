@@ -1,0 +1,111 @@
+* {
+    color: #023047;
+    font-family: monospace;
+}
+*::selection{
+    background-color: aquamarine;
+}
+
+button {
+    vertical-align: middle;
+    font-size: 14px;
+    background-color: #219ebc;
+    color: white;
+    border-radius: 8px;
+    padding: 20px;
+    width: 100px;
+    height: 10px;
+}
+
+h1 {
+    color: cadetblue;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 400;
+    text-decoration: underline wavy;
+    font-size: 20px;
+}
+
+p {
+    color: #023047;
+    font-size: 12px;
+    letter-spacing: 5;
+    line-height: 1.2;
+}
+
+span {
+    color: #ffb703;
+}
+
+#signup {
+    color: #ffb703;
+    background-color: #023047;
+}
+
+.tag {
+    color: rgb(188, 208, 33);
+}
+
+.post a {
+    color: #e63946;
+}
+
+input[type="password"]{
+    color: red;
+}
+
+footer > a {
+    color: #df5611;
+}
+
+a:active{
+    color:green;
+}
+
+.post button:hover{
+    background-color:#df5611;
+    color: white;
+}
+.post button:active{
+    background-color: #ffb703;
+    color: #023047;
+}
+
+.post:nth-of-type(2n){
+    background-color: #f9f9f9;
+}
+
+.post {
+    background-color: #d7f0f9d4;
+}
+
+p,h2::first-letter{
+    font-size: 20px;
+}
+.container{
+    align-content: center;
+    background-color: #edf2f4;
+    justify-content: center;
+    width: 90%;
+    height: 90%;
+}
+
+thead{
+    background-color: teal;
+    color: white;
+}
+thead th {
+    color: white;
+}
+
+table{
+    border-color: black;
+    border-style:double;
+    border-width: 1px;
+}
+
+table td{
+    border-color: black;
+    border-style:solid;
+    border-width: 0.5px;
+}

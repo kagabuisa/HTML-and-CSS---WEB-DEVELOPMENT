@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="eng">
+    <head>
+        <title>Test One - html - forms Test</title>
+    </head>
+    <body>
+        
+        <p>
+            <h1>Race Registration!</h1>
+        </p>
+        <form action="/formtest">
+            <p>
+                <label for="firstname">First Name</label>
+                <input required type="text" name="firstname" id="firstname" placeholder="enter firstname">
+                <label for="lastname">Last Name</label>
+                <input required type="text" name="lastname" id="lastname" placeholder="enter last name">
+            </p>
+            <p>
+                <label for="race"><h3>Select a race: </h3></label>
+                <input required type="radio" id="five" name="race" value="five">
+                <label for="5k">Fun Run 5k</label><br>
+                <input type="radio" id="half" name="race" value="half">
+                <label for="half">Half Marathon</label><br>
+                <input type="radio" id="full" name="race" value="full">
+                <label for="full">Full Marathon</label>
+            </p>
+            <p>
+                <label for="email">Email </label>
+                <input required type="email" id="email" name="email" placeholder="enter email address">
+                <label for="pass">Password </label>
+                <input required type="password" name="password" id="pass" placeholder="enter password">
+            </p>
+            <p>
+                <label for="agrp">Select Age Group</label>
+                <select name="agegroup" id="agrp" required>
+                    <option value="">select age group from drop down</option>
+                    <option value="under 18">Under 18</option>
+                    <option value="youth">18-35</option>
+                    <option value="mida">30-40</option>
+                    <option value="overa">40-50</option>
+                    <option value="seniors">50-More</option>
+                </select>
+            </p>
+            
+            <button>Register</button>
+            </form>
+        
+        
+        
+    </body>
+</html>

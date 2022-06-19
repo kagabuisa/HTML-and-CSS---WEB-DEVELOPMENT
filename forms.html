@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <title>Forms</title>
+</head>
+
+<body>
+    <h1>Welcome to forms</h1>
+    <form action="/tacos">
+        <p>
+            <label for="username">Enter username:</label>
+            <input required id="username" type="text" placeholder="username" name="username">
+        </p>
+        <p>
+            <label for="password"> Enter password</label>
+            <input id="password" type="password" placeholder="password" name="password">
+        </p>
+        <p>
+            <label for="color">Pick Color</label>
+            <input type="color" placeholder="color" id="color" name="color">
+        </p>
+        <p>
+            <label for="age">Enter age</label>
+            <input type="number" placeholder="number" id="age" name="age">
+        </p>
+        <button>Submit</button>
+    </form>
+    <p>
+    <h1>Hijacking Search Engines</h1>
+    <p>
+    <h2>Search Google</h2>
+    <form action="https://www.google.com/search?">
+        <label for="google">Search Google: </label>
+        <input type="text" name="q" id="google">
+        <button>Search google!</button>
+    </form>
+    </p>
+    <p>
+    <h2>Search Youtube</h2>
+    <form action="https://www.youtube.com/results?">
+        <label for="youtube">Search Youtube: </label>
+        <input type="text" name="search_query" id="youtube">
+        <button>Search youtube!</button>
+    </form>
+    </p>
+    <p>
+    <h3>Checkbox</h3>
+    <form action="/birds">
+        <input type="checkbox" name="educ" id="newcb" value="high">
+        <label for="newcb">High School</label>
+        <input type="checkbox" name="educ" id="newcb2" value="uni">
+        <label for="newcb2">University</label>
+        <button>Submit</button>
+    </form>
+    </p>
+    <p>
+    <h3>Radio buttons</h3>
+    <h4>Select size</h4>
+    <form action="/rado">
+        <label for="">Choose size</label>
+        <input type="radio" name="size" id="L" value="L">
+        <label for="L">Large</label>
+        <input type="radio" name="size" id="m" value="m" checked>
+        <label for="m">Medium</label>
+        <input type="radio" name="size" id="s" value="s">
+        <label for="s">Small</label>
+        <button>Submit size</button>
+    </form>
+    </p>
+    <p>
+    <h3>Select element</h3>
+    <form action="/select">
+        <label for="">What will you eat</label><br>
+        <hr>
+        <select name="meal" id="meal">Select food choice
+            <option value="">select meal from dropdown</option>
+            <option value="pilao">Pilao</option>
+            <option value="Kallo">Kallo</option>
+            <option value="steak">Steak</option>
+            <option value="matooke" selected>Matooke</option>
+        </select>
+        <button>Submit meal!</button>
+    </form>
+    </p>
+    <p>
+    <h3>Range element</h3>
+    <form action="/range">
+        <label for="kg">Select quantity</label>
+        <input type="range" name="weight" id="kg" min="1" max="1000" step="0.1" value="200">
+        <button>submit qty!</button><br>
+        <p>
+            <label for="txt">Give us your feedback: </label><br>
+            <textarea required name="story" id="txt" cols="40" rows="10" placeholder="enter request details"></textarea>
+        </p>
+        <header></header>
+    </form>
+    </p>
+
+
+    </p>
+
+</body>
+
+</html>
