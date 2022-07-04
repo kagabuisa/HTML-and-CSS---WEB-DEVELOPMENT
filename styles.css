@@ -2,20 +2,26 @@
     color: #023047;
     font-family: monospace;
 }
-*::selection{
+
+*::selection {
     background-color: aquamarine;
 }
 
 button {
-    vertical-align: middle;
-    font-size: 14px;
-    background-color: #219ebc;
-    color: white;
-    border-radius: 8px;
-    padding: 20px;
-    width: 100px;
-    height: 10px;
+    background-color: teal;
+    color: #edf2f4;
+    font-family: 'Lato', sans-serif;
+    display: inline-block;
+    padding: 1rem 1.5rem;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 0.5;
+    /* transition: background 100ms ease,border-color 100ms ease; */
 }
+
 
 h1 {
     color: cadetblue;
@@ -50,28 +56,29 @@ span {
     color: #e63946;
 }
 
-input[type="password"]{
+input[type="password"] {
     color: red;
 }
 
-footer > a {
+footer>a {
     color: #df5611;
 }
 
-a:active{
-    color:green;
+a:active {
+    color: green;
 }
 
-.post button:hover{
-    background-color:#df5611;
+.post button:hover {
+    background-color: #df5611;
     color: white;
 }
-.post button:active{
+
+.post button:active {
     background-color: #ffb703;
     color: #023047;
 }
 
-.post:nth-of-type(2n){
+.post:nth-of-type(2n) {
     background-color: #f9f9f9;
 }
 
@@ -79,10 +86,12 @@ a:active{
     background-color: #d7f0f9d4;
 }
 
-p,h2::first-letter{
+p,
+h2::first-letter {
     font-size: 20px;
 }
-.container{
+
+.container {
     align-content: center;
     background-color: #edf2f4;
     justify-content: center;
@@ -90,22 +99,24 @@ p,h2::first-letter{
     height: 90%;
 }
 
-thead{
+thead {
     background-color: teal;
     color: white;
 }
+
 thead th {
     color: white;
 }
 
-table{
+table {
     border-color: black;
-    border-style:double;
+    border-style: double;
     border-width: 1px;
 }
 
-table td{
+table td {
     border-color: black;
-    border-style:solid;
+    border-style: solid;
     border-width: 0.5px;
 }
+

@@ -1,0 +1,59 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.positioning-content {
+    width: 100%;
+    height: 280px;
+    display: flex;
+    gap: 10px;
+    color: white;
+    text-align: center;
+    align-content: center;
+    /* position: absolute; */
+    background-color: rgb(243, 243, 243);
+}
+
+.positioning-content div {
+    display: grid;
+    align-content: center;
+    gap: 10px;
+    color: whitesmoke;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+.b-left,
+.b-right {
+    background-color: rgb(50, 50, 50);
+}
+
+.b-middle {
+    background-color: rgb(0, 128, 128);
+    position: relative;
+    top: 50px;
+    left: 100px;
+}
+
+/* p {
+    color: black;
+} */
+
+.circle {
+    width: 300px;
+    height: 300px;
+    background-color: teal;
+    margin: 50px;
+    transition: background-color 5s, border-radius 2s;
+}
+
+.circle:hover {
+    width: 300px;
+    height: 300px;
+    background-color: yellowgreen;
+    border-radius: 50%;
+}
